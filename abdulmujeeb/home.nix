@@ -496,6 +496,8 @@ label:focus {
     };
   };
 
+  services.trayscale.enable = true;
+
   services.syncthing = {
     enable = true;
     overrideDevices = false;

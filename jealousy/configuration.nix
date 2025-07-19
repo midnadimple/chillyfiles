@@ -52,6 +52,9 @@
   # services.xserver.xkb.layout = "uk";
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
+  # FlatPak
+  services.flatpak.enable = true;
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
